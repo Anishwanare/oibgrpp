@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contain{
+    background-color: #79dbef;
+    min-height: 100vh;
+    border: 10px solid #fe6a6a;
+}
+
+
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+
+}
+
+.image img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 300px;
+    height: 320px;
+}
+
+.main h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #f64848;
+    text-transform: uppercase;
+    line-height: 60px;
+
+}
+
+.main h4 {
+    font-size: 30px;
+    text-align: end;
+}
+
+.about_lord {
+    line-height: 30px;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+
+}
+
+.about_lord h1{
+    text-decoration: underline red;
+}
+
+.about_lord p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.awards h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    text-decoration: underline red;
+}
+
+.awards {
+    margin: 50px 0;
+}
+
+
+.awards ul {
+    margin-left: 50px;
+}
+
+.awards li {
+    margin-bottom: 15px;
+    font-size: 25px;
+} 
